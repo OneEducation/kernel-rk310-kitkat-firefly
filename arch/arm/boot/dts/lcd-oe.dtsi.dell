@@ -1,0 +1,26 @@
+/ {
+
+		disp_timings: display-timings {
+                        native-mode = <&timing0>;
+                        timing0: timing0 {
+				screen-type = <SCREEN_EDP>;
+                out-face    = <OUT_P888>;
+                clock-frequency = <154000000>;
+                hactive = <1920>;
+                vactive = <1200>;
+                hback-porch = <32>;
+                hfront-porch = <32>;
+                vback-porch = <22>;
+                vfront-porch = <22>;
+                hsync-len = <696>;
+                vsync-len = <11>;
+                hsync-active = <1>;
+                vsync-active = <1>;
+                de-active = <0>;
+                pixelclk-active = <0>;
+                swap-rb = <0>;
+                swap-rg = <0>;
+                swap-gb = <0>;
+                     	};
+               };
+};
